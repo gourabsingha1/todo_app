@@ -4,7 +4,7 @@
   }
   
   body {
-    background: #333;
+    background: #7085e4;
     color: hsl(200, 100%, 90%);
     max-width: 400px;
     padding: 1rem;
@@ -114,7 +114,7 @@
     border: 2px solid #1A1A1A;
     border-radius: 10px;
     box-sizing: border-box;
-    color: #a2aff0;
+    color: #fbfbfb;
     cursor: pointer;
     display: inline-block;
     font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
@@ -179,10 +179,13 @@
   }
   
   .list li:has(input:checked) label {
-    color: hsl(200, 20%, 40%);
+    color: hsl(0, 0%, 0%);
   }
   
   .list {
+    margin: 0;
+    color: #000000;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
@@ -232,12 +235,8 @@
   
   .list li:has(input:checked) label::before {
     content: "✔";
-    background: hsl(200, 100%, 40%);
-    color: hsl(200, 100%, 90%);
+    background: hsl(120, 9%, 98%);
+    color: hsl(125, 99%, 41%);
     font-size: 0.75rem;
     font-weight: bold;
-  }
-  
-  .list li:has(input:checked) label:hover::before {
-    background: hsl(200, 100%, 30%);
   }
